@@ -34,20 +34,3 @@ create table stations_train_pass(
 	`seq` integer not null,
 	`starttime` char(20) not null
 );
-use train;
-insert into station_trains values(1,101);
-insert into station_trains values(2,101);
-insert into station_trains values(3,101);
-insert into station_trains values(4,101);
-insert into station_trains values(5,101);
-insert into station_trains values(6,101);
-insert into station_trains values(7,101);
-
-use train;
-insert into stations_train_pass values(101,1,'09:12','金陵', 01, '09:12');
-insert into stations_train_pass values(101,3,'10:00','海陵', 03, '10:12');
-insert into stations_train_pass values(101,4,'11:12','秣陵', 04, '11:22');
-insert into stations_train_pass values(101,5,'12:12','姑苏', 05, '12:32');
-insert into stations_train_pass values(101,6,'13:12','长安', 06, '13:22');
-insert into stations_train_pass values(101,7,'14:12','北平', 07, '15:12');
-insert into stations_train_pass values(101,2,'16:12','广陵', 20, '17:00');
